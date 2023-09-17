@@ -18,6 +18,7 @@ public class ConfirmacionPedidoFrame extends JFrame {
         cerrarButton.setForeground(Color.black);
 
         cerrarButton.addActionListener(new ActionListener() {
+
             @Override
             public void actionPerformed(ActionEvent e) {
                 dispose();
